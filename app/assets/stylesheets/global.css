@@ -181,11 +181,8 @@ body {
 .contactheader{
   color: rgba(0, 0, 0, 0.5);
   display: block;
-  float: right;
   font-family: courier new,courier,monospace;
-  margin-left: 400px;
   margin-top: -49px;
-  position: absolute;
 
   -moz-border-radius: 20px; /* Firefox */
   -webkit-border-radius: 20px; /* Safari, Chrome */
