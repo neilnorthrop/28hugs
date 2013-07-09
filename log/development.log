@@ -33120,3 +33120,2648 @@ Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 16:41:14 -0700
 
 
 Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 16:41:14 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:03:34 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (39.3ms)
+  Rendered layouts/_dig_bar.html.erb (0.6ms)
+Completed 200 OK in 531ms (Views: 530.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/page.css?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/stylesheet_new.css?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/img/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/topgrey.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/img/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/purplepaper-texture.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.4ms)
+
+
+Started GET "/img/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/socialbuttons.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.4ms)
+
+
+Started GET "/img/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/checkmark.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.9ms)
+
+
+Started GET "/img/circle.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/circle.jpg"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/patrickmounts/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (33.9ms)
+  Rendered /Users/patrickmounts/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (51.1ms)
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:03:35 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/stylesheet_new.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/page.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:04:08 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/page.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/stylesheet_new.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:04:42 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_dig_bar.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:05:38 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:36:35 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:38:22 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:38:31 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:39:15 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:39:32 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:39:57 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:40:09 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:40:10 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:40:26 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:40:34 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:40:35 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:40:56 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:40:57 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:41:19 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:41:30 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:41:40 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:42:05 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:42:05 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:42:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:42:06 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:42:19 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:43:18 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:43:39 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:43:47 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:44:05 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:44:06 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:44:06 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:44:06 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:44:06 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:44:06 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:44:06 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:44:12 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:45:50 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:46:08 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:46:20 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:46:44 -0700
+
+
+Started GET "/home" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/topgrey.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/socialbuttons.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/purplepaper-texture.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/checkmark.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/circle.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:47:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_dig_bar.html.erb (0.4ms)
+Completed 200 OK in 96ms (Views: 95.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 19:50:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/mainproductimage.png" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/downarrow1.jpg" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/logo_withtag.png" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/line_1.jpg" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/line2.jpg" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/line3.jpg" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/paperhearts.png" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/largechocolates.png" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/largepackage.png" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/assets/bottomdoglogo.jpg" for 127.0.0.1 at 2013-07-08 20:02:25 -0700
+
+
+Started GET "/faq" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:02:30 -0700
+
+
+Started GET "/faq" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:04:12 -0700
+
+
+Started GET "/faq" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:04:19 -0700
+
+
+Started GET "/faq" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:06:59 -0700
+
+
+Started GET "/faq" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:07:17 -0700
+
+
+Started GET "/faq" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_dig_bar.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:07:51 -0700
+
+
+Started GET "/faq" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+Processing by StaticPagesController#faq as HTML
+  Rendered static_pages/faq.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_dig_bar.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/page.js?body=1" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/28-logo-top.png" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
+
+
+Started GET "/assets/arrow_top.png" for 127.0.0.1 at 2013-07-08 20:08:14 -0700
