@@ -1,0 +1,84 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @subscriber.email %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @subscriber.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @subscriber.last_name %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @subscriber.phone_number %>
+</p>
+
+<p>
+  <strong>Billing address:</strong>
+  <%= @subscriber.billing_address %>
+</p>
+
+<p>
+  <strong>Billing city:</strong>
+  <%= @subscriber.billing_city %>
+</p>
+
+<p>
+  <strong>Billing state:</strong>
+  <%= @subscriber.billing_state %>
+</p>
+
+<p>
+  <strong>Billing zip:</strong>
+  <%= @subscriber.billing_zip %>
+</p>
+
+<p>
+  <strong>Processor token:</strong>
+  <%= @subscriber.processor_token %>
+</p>
+
+<p>
+  <strong>Recipient name:</strong>
+  <%= @subscriber.recipient_name %>
+</p>
+
+<p>
+  <strong>Recipient address:</strong>
+  <%= @subscriber.recipient_address %>
+</p>
+
+<p>
+  <strong>Recipient city:</strong>
+  <%= @subscriber.recipient_city %>
+</p>
+
+<p>
+  <strong>Recipient state:</strong>
+  <%= @subscriber.recipient_state %>
+</p>
+
+<p>
+  <strong>Recipient zip:</strong>
+  <%= @subscriber.recipient_zip %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @subscriber.password %>
+</p>
+
+<p>
+  <strong>Password confirmation:</strong>
+  <%= @subscriber.password_confirmation %>
+</p>
+
+<%= link_to 'Edit', edit_subscriber_path(@subscriber) %> |
+<%= link_to 'Back', subscribers_path %>
