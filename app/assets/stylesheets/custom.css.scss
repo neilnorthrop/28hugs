@@ -1,0 +1,37 @@
+@import 'bootstrap-responsive';
+@import 'bootstrap';
+
+/*INDIVIDUAL PAGE CSS*/
+
+.faq .purp_text {
+  max-width: 960px;
+  color: #A1109F;
+  font-family: courier new,courier,monospace;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.faq h4, h2 {
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.faqimg {
+  margin-top: 20px;
+  display: inline;
+  float: right;
+  z-index: -1;
+}
+
+.hidden {
+  display: none;
+}
+
+.faq ul {
+  list-style-type: none;
+}
+
+.faq a:visited {
+  color: #A1109F;
+}

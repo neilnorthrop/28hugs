@@ -205,7 +205,7 @@ body {
   margin:0 auto;
 }
 
-.contentinnerround{
+.content-container{
   -moz-border-radius: 20px; /* Firefox */
   -webkit-border-radius: 20px; /* Safari, Chrome */
   border-radius: 20px; /* CSS3 */
@@ -987,14 +987,14 @@ body {
   margin-left: -132px;
 }
 
-.row128 {
+.top-content-row {
   display: inline-block;
   padding: 43px 38px 6px 30px;
   width: 481px;
   padding-right:0px;
 }
 
-.row128 p.largepurple{
+.top-content-row p.largepurple{
   color: #A1109F;
   font-family: courier new,courier,monospace;
   font-size: 30px;
@@ -1003,7 +1003,7 @@ body {
   margin-bottom:22px;
 }
 
-.row128 p{
+.top-content-row p{
   font-family: "HelveticaNeue","Helvetica Neue","HelveticaNeueRoman","HelveticaNeue-Roman","Helvetica Neue Roman",'TeXGyreHerosRegular',"Helvetica","Tahoma","Geneva","Arial",sans-serif;
   font-size: 16px;
   font-stretch: normal;
@@ -1357,36 +1357,5 @@ body {
           transition: all 0.2s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.50+ */
 }
 
-
-
-/*28 day hug page*/
-
-.digwrapper{
-position:fixed;
-width:50px;
-top:40%;
-left:2%;
-}
-
-/* faq */
-.faq .purp_text {
-  max-width: 960px;
-  color: #A1109F;
-  font-family: courier new,courier,monospace;
-  line-height: 30px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.faq h4, h2 {
-  text-decoration: underline;
-  margin-top: 20px;
-}
-
-.faqimg {
-  margin-top: 20px;
-  display: inline-block;
-  float: right;
-}
 
 
