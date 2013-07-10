@@ -8,51 +8,41 @@
 </head>
 <body>
   <div class="container-fluid">
-    <div id="header">
-      <div class="headerinner">
-        <div class="logoholder twentyheader">
-          <div class="logoitem">
-            <%= link_to image_tag("28-logo-top.png", alt: "28 day hug", class: "headerlogo"), '/' %>
-          </div>
-        </div>
-        <div class="sharewrapper">
-          <div id="mc_embed_signup">
-            <!-- Info for mailing list -->
-          </div>
-          <div class="headersocialwrap">
-            <div class="topheadshare">Find Us On
-              <%= link_to image_tag("arrow_top.png", alt: "social pointer", class: "headsharelogo") %>
+    <header class="navbar">
+      <div class="navbar-inner">
+        <div class="nav-container">
+          <%= link_to image_tag("28-logo-top.png", alt: "28 day hug", class: "headerlogo"), '/' %>
+            <div class="socialbtns pull-right">
+              <%= link_to image_tag("socialbuttonsfbook.png", alt: "facebook logo/link", class:"headersocialnav"),'https://www.facebook.com/28dayhug'%>
+              <%= link_to image_tag("socialbuttonstwit.png", alt:"twitter logo/link", class:"headersocialnav"),'https://twitter.com/28dayhug'%>
+              <%= link_to image_tag("socialbuttonspint.png", alt:"pintrist logo/link", class:"headersocialnav"),'http://pinterest.com/28dayhug/'%>
             </div>
-
-            <div class="headershareitem">
-              <a href="https://www.facebook.com/28dayhug" target="_blank" class="socialtop facebooktop"></a>
-            </div>
-
-            <div class="headershareitem">
-              <a href="https://twitter.com/28dayhug" target="_blank" class="socialtop twittertop"></a>
-            </div>
-
-            <div class="headershareitem">
-              <a href="http://pinterest.com/28dayhug/"target="_blank"class="socialtop pinteresttop"></a>
-            </div>
-          </div>
         </div>
       </div>
+    </header>
+    <div class="span1">
+      <%= render "layouts/dig_bar" %>
     </div>
-    <div class="span6 offset3">
+
+    <div class="span6 offset2">
+
     <%= yield %>
-    <%= link_to "signup NOW!", faq_path, class:"btn btn-large btn-success pull-right" %>
+
     </div>
-    <div class="footerwrapper">
-      <div class="footerinner">
-        <h3> Thanks for visiting!</h3>
-        <br/>
-        <a href="/faq" class="contactheader">Help Desk & FAQ</a>
-        <br/>
-        <span class="copyright"> © 2011 Lovely Brands LLC All Rights Reserved </span>
+
+    <%= link_to "signup NOW!", faq_path, class:"btn btn-large btn-success pull-right" %>
+    <div class="row">
+      <div class="span12">
+        <div class="footerwrapper">
+          <div class="footerinner">
+            <h3> Thanks for visiting!</h3>
+            <br/>
+            <a href="/faq" class="contactheader">Help Desk & FAQ</a>
+            <br/>
+            <span class="copyright"> © 2011 Lovely Brands LLC All Rights Reserved </span>
+          </div>
       </div>
     </div>
   </div>
-    <%= render "layouts/dig_bar" %>
 </body>
 </html>

@@ -128,12 +128,6 @@ body {
   margin-top: 19px;
 }
 
-.page-template-page_pmspro-php  .pmsheader{
-  border-bottom:8px solid #c216c1;
-  height: 81px;
-  margin-top: 23px;
-}
-
 .gl{
   border-bottom:8px solid #efefef;
   height: 73px;
@@ -141,7 +135,7 @@ body {
 }
 
 .logoholder  .twentyheader{
-  border-bottom:8px solid #efefef;
+  /*border-bottom:8px solid #efefef;*/
   height: 92px;
   margin-top: 12px;
 }
@@ -175,7 +169,7 @@ body {
 
 /*PMAS PAGE*/
 .contentwrapper{
-  border-top:8px solid #efefef;
+  /*border-top:8px solid #efefef;*/
 }
 
 .contactheader{
@@ -452,7 +446,7 @@ body {
 }
 
 .footerinner{
-  width:930px;
+  width:980px;
   margin:0 auto;
   min-height:300px;
   text-align:center;
