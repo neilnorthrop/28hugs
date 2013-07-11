@@ -7,7 +7,11 @@ Bundler.require(*Rails.groups(assets: %w(development test)))
 
 module Hug
   class Application < Rails::Application
+<<<<<<< HEAD
     # config.assets.initialize_on_precompile = false
+=======
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+>>>>>>> 3203040cbaf2c01696b4f262b1b7b194db54c5cc
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

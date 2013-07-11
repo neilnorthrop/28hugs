@@ -1,0 +1,64 @@
+@import 'bootstrap-responsive';
+@import 'bootstrap';
+
+/*INDIVIDUAL PAGE CSS*/
+
+.faq .purp_text {
+  max-width: 960px;
+  color: #A1109F;
+  font-family: courier new,courier,monospace;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.faq h4 {
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.faqimg {
+  margin-top: 20px;
+  display: inline;
+  float: right;
+  z-index: -1;
+}
+
+.hidden {
+  display: none;
+}
+
+.faq ul {
+  list-style-type: none;
+}
+
+.faq a:visited {
+  color: #A1109F;
+}
+
+.nav li {
+  padding: 5px;
+}
+
+.headersocialnav {
+  margin-top: 23px;
+}
+
+.user-btn {
+  background-image:url(/assets/purplepaper-texture.jpg);
+  background-repeat:repeat;
+  width: 75px;
+  font-family: courier new,courier,monospace;
+  height:12px;
+  color:#ffffff;
+  -moz-border-radius: 20px; /* Firefox */
+  -webkit-border-radius: 20px; /* Safari, Chrome */
+  border-radius: 15px; /* CSS3 */
+  background-color:rgba(161,16,159,.8);
+  font-size: 18px;
+  text-align: center;
+  padding: 14px 20px;
+  line-height: .8em;
+  margin-right: 30px;
+  box-shadow: inset 0 0 .7em #fff;
+}
