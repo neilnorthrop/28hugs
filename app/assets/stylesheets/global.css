@@ -1066,8 +1066,8 @@ body {
   margin-top: 3px;
   vertical-align: top;
 }
-
-.contentinnerround .28dauhow .expectitem{
+/*removing .28dauhow temporarily*/
+.contentinnerround .expectitem{
   background-color:rgba(255,255,255,0);
 }
 
