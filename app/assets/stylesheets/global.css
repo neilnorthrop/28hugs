@@ -313,7 +313,7 @@ body {
 }
 
 .expectitem{
-  background-image:url(/assets/checkmark.png);
+  background-image:url(/assets/checkmark.jpg);
   background-position: 16px center;
   background-repeat:no-repeat;
   padding:20px 10px;
@@ -1071,7 +1071,7 @@ body {
 
 .expectitem28 {
   background-color: #ffffff;
-  background-image: url(/assets/checkmark.png);
+  background-image: url(/assets/checkmark.jpg);
   background-position: 20px -5px;
   background-repeat: no-repeat;
   border-radius: 14px 14px 14px 14px;
@@ -1154,7 +1154,7 @@ body {
 }
 
 .whatcanyouexpect h3{
-  background-image: url(/assets/circle.png);
+  background-image: url(/assets/circle.jpg);
   background-position:128px -5px;
   background-repeat: no-repeat;
   color: #A1109F;
@@ -1186,7 +1186,7 @@ body {
   font-size: 19px;
   font-weight: bold;
 
-  background-image: url(/assets/circle.png);
+  background-image: url(/assets/circle.jpg);
   background-position:1px 1px;
   background-repeat: no-repeat;
 
@@ -1210,7 +1210,7 @@ body {
 }
 
 .whatcanyouexpect h4{
-  background-image: url(/assets/circle.png);
+  background-image: url(/assets/circle.jpg);
   background-position: 218px 14px;
   background-repeat: no-repeat;
   background-size: 88px auto;
@@ -1236,7 +1236,7 @@ body {
 }
 
 .bottomsection{
-  background-image: url(/assets/purplepaper-texture.png);
+  background-image: url(/assets/purplepaper-texture.jpg);
   background-repeat: repeat;
 
   color:#ffffff;
@@ -1257,7 +1257,7 @@ body {
 }
 
 .bottomsection .texturebutton {
-  background-image: url(/assets/purplepaper-texture.png);
+  background-image: url(/assets/purplepaper-texture.jpg);
   background-repeat: repeat;
   border: 8px solid #761975;
   display: inline-block;
