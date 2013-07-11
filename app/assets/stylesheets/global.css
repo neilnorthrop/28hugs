@@ -294,6 +294,7 @@ body {
 
 .purchasebutton:hover{
   background-color:rgba(161,16,159,1);
+  text-decoration: none;
 
 }
 
@@ -446,7 +447,7 @@ body {
 }
 
 .footerinner{
-  width:980px;
+  width:100%;
   margin:0 auto;
   min-height:300px;
   text-align:center;
@@ -1025,20 +1026,23 @@ body {
 
 .mainbuttontype{
   display:block;
+  text-decoration: none;
+  margin-top: 10px;
   -webkit-transition: all 0.0s ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0.0s ease-out;  /* Firefox 4-15 */
        -o-transition: all 0.0s ease-out;  /* Opera 10.5â€“12.00 */
           transition: all 0.0s ease-out;  /* Firefox 16+, Opera 12.50+ */
 }
 
-.texturebutton:hover .mainbuttontype{
+.texturebutton:hover .mainbuttontype:hover{
   font-size: 47px;
   -webkit-transition: all 0.0s ease-out;  /* Safari 3.2+, Chrome */
      -moz-transition: all 0.0s ease-out;  /* Firefox 4-15 */
        -o-transition: all 0.0s ease-out;  /* Opera 10.5â€“12.00 */
   transition: all 0.0s ease-out;  /* Firefox 16+, Opera 12.50+ */
-  margin-top:-3px;
+  margin-top:;
   text-shadow:0px -1px 2px rgba(0,0,0,.7);
+  text-decoration: none;
 }
 
 .texturebutton .largebuy {
