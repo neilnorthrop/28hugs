@@ -6,15 +6,13 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="home page page-id-8 page-template page-template-home-php">
+<body>
   <div id="container">
     <div id="header">
       <div class="headerinner">
-        <div class="logoholder">
-          <div class="logoitem twentyheader">
-            <a href="#" title="28dayhug">
-            <%= link_to image_tag("28-logo-top.png", alt: "28 day hug", class: "headerlogo") %>
-            </a>
+        <div class="logoholder twentyheader">
+          <div class="logoitem">
+            <%= link_to image_tag("28-logo-top.png", alt: "28 day hug", class: "headerlogo"), '/' %>
           </div>
         </div>
         <div class="sharewrapper">
@@ -23,7 +21,7 @@
           </div>
           <div class="headersocialwrap">
             <div class="topheadshare">Find Us On
-              <%= link_to image_tag("arrow_top.png", alt: "28 day hug", class: "headsharelogo") %>
+              <%= link_to image_tag("arrow_top.png", alt: "social pointer", class: "headsharelogo") %>
             </div>
 
             <div class="headershareitem">
@@ -45,10 +43,10 @@
     <div class="footerwrapper">
       <div class="footerinner">
         <h3> Thanks for visiting!</h3>
-        <a href="#" class="contactheader">Help Desk & FAQ</a>
+        <br/>
+        <a href="/faq" class="contactheader">Help Desk & FAQ</a>
         <br/>
         <span class="copyright"> © 2011 Lovely Brands LLC All Rights Reserved </span>
-        <a href="/faq" class="contactheader">Help Desk & FAQ</a>
       </div>
     </div>
   </div>
