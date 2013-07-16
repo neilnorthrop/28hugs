@@ -1155,8 +1155,8 @@ body {
 
 .whatcanyouexpect h3{
   background-image: url(/assets/circle.jpg);
-  background-position:128px -5px;
-  background-repeat: no-repeat;
+  -position:128px -5px;
+  -repeat: no-repeat;
   color: #A1109F;
   font-family: courier new,courier,monospace;
   font-size: 47px;
@@ -1236,8 +1236,10 @@ body {
 }
 
 .bottomsection{
+  /* commented image b/c heroku wasnt recognizing */
   background-image: url(/assets/purplepaper-texture.jpg);
   background-repeat: repeat;
+  /*background-color: rgba(167,16,150,1);*/
 
   color:#ffffff;
   text-shadow:0px -1px 0px rgba(0,0,0,.7);
