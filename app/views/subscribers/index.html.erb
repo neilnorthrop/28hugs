@@ -1,0 +1,57 @@
+<h1>Listing subscribers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Phone number</th>
+      <th>Billing address</th>
+      <th>Billing city</th>
+      <th>Billing state</th>
+      <th>Billing zip</th>
+      <th>Processor token</th>
+      <th>Recipient name</th>
+      <th>Recipient address</th>
+      <th>Recipient city</th>
+      <th>Recipient state</th>
+      <th>Recipient zip</th>
+      <th>Password</th>
+      <th>Password confirmation</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @subscribers.each do |subscriber| %>
+      <tr>
+        <td><%= subscriber.email %></td>
+        <td><%= subscriber.first_name %></td>
+        <td><%= subscriber.last_name %></td>
+        <td><%= subscriber.phone_number %></td>
+        <td><%= subscriber.billing_address %></td>
+        <td><%= subscriber.billing_city %></td>
+        <td><%= subscriber.billing_state %></td>
+        <td><%= subscriber.billing_zip %></td>
+        <td><%= subscriber.processor_token %></td>
+        <td><%= subscriber.recipient_name %></td>
+        <td><%= subscriber.recipient_address %></td>
+        <td><%= subscriber.recipient_city %></td>
+        <td><%= subscriber.recipient_state %></td>
+        <td><%= subscriber.recipient_zip %></td>
+        <td><%= subscriber.password %></td>
+        <td><%= subscriber.password_confirmation %></td>
+        <td><%= link_to 'Show', subscriber %></td>
+        <td><%= link_to 'Edit', edit_subscriber_path(subscriber) %></td>
+        <td><%= link_to 'Destroy', subscriber, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Subscriber', new_subscriber_path %>
