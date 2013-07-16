@@ -28,10 +28,14 @@ GEM
     arel (4.0.0)
     atomic (1.1.10)
 <<<<<<< HEAD
-    bootstrap-sass (2.1.0.0)
+<<<<<<< HEAD
 =======
     bcrypt-ruby (3.0.1)
 >>>>>>> d49d53adc809599f79792c719d1e41a8f20032f7
+=======
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
+>>>>>>> 2ada19c6ee176ff18f937126ebf3522b3cc6024f
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -153,9 +157,7 @@ PLATFORMS
 
 DEPENDENCIES
 <<<<<<< HEAD
-  bootstrap-sass
 =======
-  bcrypt-ruby (= 3.0.1)
 >>>>>>> d49d53adc809599f79792c719d1e41a8f20032f7
   capybara (= 2.1.0)
   coffee-rails (= 4.0.0)

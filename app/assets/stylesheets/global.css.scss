@@ -1669,7 +1669,7 @@ body {
 }
 
 .expectitem{
-  background-image:url(/assets/checkmark.png);
+  background-image:url(/assets/checkmark.jpg);
   background-position: 16px center;
   background-repeat:no-repeat;
   padding:20px 10px;
@@ -2592,9 +2592,7 @@ body {
 }
 
 .bottomsection{
-  background-image: url(/assets/purplepaper-texture.jpg);
-  background-repeat: repeat;
-
+  background-color: rgba(167,16,150,1);
   color:#ffffff;
   text-shadow:0px -1px 0px rgba(0,0,0,.7);
   padding: 20px 100px;
