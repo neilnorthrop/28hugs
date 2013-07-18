@@ -1,4 +1,8 @@
 Hug::Application.routes.draw do
+  resources :charges
+
+  resources :subscribers
+
   get '/', to: 'static_pages#home'
   get '/home', to: 'static_pages#home'
   get '/faq', to: 'static_pages#faq'

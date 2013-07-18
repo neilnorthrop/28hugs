@@ -1,0 +1,40 @@
+<%= form_for(@charge) do |f| %>
+  <% if @charge.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@charge.errors.count, "error") %> prohibited this charge from being saved:</h2>
+
+      <ul>
+      <% @charge.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+@sub = subbscriber[1]
+
+strip charge create
+
+card: @sub.customer_id
+
+  <div class="field">
+    <%= f.label :paid_status %><br>
+    <%= f.text_field :paid_status %>
+  </div>
+  <div class="field">
+    <%= f.label :stripe_token %><br>
+    <%= f.text_field :stripe_token %>
+  </div>
+  <div class="field">
+    <%= f.label :last_4 %><br>
+    <%= f.text_field :last_4 %>
+  </div>
+  <div class="field">
+    <%= f.label :subscriber_id %><br>
+    <%= f.number_field :subscriber_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
