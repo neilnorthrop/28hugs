@@ -1,3 +1,13 @@
+<!--  @subscriber = Subscriber.where(ship_date: Date.today)
+
+  Stripe::Charge.create(
+  :amount   => 5.98,
+  :currency => "usd",
+  :customer => @subscriber[0].stripe_customer_id
+  ) -->
+
+
+
 <%= form_for(@charge) do |f| %>
   <% if @charge.errors.any? %>
     <div id="error_explanation">
@@ -11,13 +21,7 @@
     </div>
   <% end %>
 
-
-@sub = subbscriber[1]
-
-strip charge create
-
-card: @sub.customer_id
-
+  <%= puts Charge.hello_test %>
   <div class="field">
     <%= f.label :paid_status %><br>
     <%= f.text_field :paid_status %>
