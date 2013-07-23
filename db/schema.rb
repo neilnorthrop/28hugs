@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20130722222827) do
     t.string   "email"
     t.string   "first_name"
     t.string   "last_name"
-    t.string   "phone"
+    t.string   "phone_number"
     t.string   "billing_address"
     t.string   "billing_city"
     t.string   "billing_state"
