@@ -46,7 +46,7 @@ class SubscribersController < ApplicationController
       if @subscriber.save
         redirect_to @subscriber, notice: 'Subscriber was successfully created.'
       else
-        render action: 'new'
+        render 'new'
       end
     # @subscriber = Subscriber.new(subscriber_params)
 
