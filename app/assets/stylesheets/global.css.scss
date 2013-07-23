@@ -1669,7 +1669,7 @@ body {
 }
 
 .expectitem{
-  background-image:url(/assets/checkmark.jpg);
+  background-image:asset-data-url('checkmark.jpg');
   background-position: 16px center;
   background-repeat:no-repeat;
   padding:20px 10px;
@@ -1678,14 +1678,13 @@ body {
   -webkit-border-radius: 14px; /* Safari, Chrome */
   border-radius: 14px; /* CSS3 */
   margin-bottom: 14px;
-}
-
-.expectitem p{
-  margin-left:50px;
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;
-  font-weight: 200;
-  letter-spacing: 0.02em;
-  font-size:14px;
+  p {
+    margin-left:50px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;
+    font-weight: 200;
+    letter-spacing: 0.02em;
+    font-size:32px;
+  }
 }
 
 .secondpurchaseblock{
@@ -2369,7 +2368,7 @@ body {
 }
 
 .texturebutton{
-  background-image:url(/assets/purplepaper-texture.jpg);
+  background-image:asset-data-url('purplepaper-texture.jpg');
   background-repeat:repeat;
   display: inline-block;
   width: 37%;
@@ -2427,7 +2426,7 @@ body {
 
 .expectitem28 {
   background-color: #ffffff;
-  background-image: url(/assets/checkmark.jpg);
+  background-image: asset-data-url('checkmark.jpg');
   background-position: 20px -5px;
   background-repeat: no-repeat;
   border-radius: 14px 14px 14px 14px;
@@ -2510,7 +2509,7 @@ body {
 }
 
 .whatcanyouexpect h3{
-  background-image: url(/assets/circle.jpg);
+  background-image: asset-data-url('circle.jpg');
   background-position:128px -5px;
   background-repeat: no-repeat;
   color: #A1109F;
@@ -2542,7 +2541,7 @@ body {
   font-size: 19px;
   font-weight: bold;
 
-  background-image: url(/assets/circle.jpg);
+  background-image: asset-data-url('circle.jpg');
   background-position:1px 1px;
   background-repeat: no-repeat;
 
@@ -2566,7 +2565,7 @@ body {
 }
 
 .whatcanyouexpect h4{
-  background-image: url(/assets/circle.jpg);
+  background-image: asset-data-url('circle.jpg');
   background-position: 218px 14px;
   background-repeat: no-repeat;
   background-size: 88px auto;

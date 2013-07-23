@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/stripe/stripe-ruby
+  revision: fd09e677311d7d78a02af9b6c7f61b3a2c3b752d
+  specs:
+    stripe (1.8.4)
+      multi_json (>= 1.0.4, < 2)
+      rest-client (~> 1.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -29,10 +37,14 @@ GEM
     atomic (1.1.10)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     bcrypt-ruby (3.0.1)
 >>>>>>> d49d53adc809599f79792c719d1e41a8f20032f7
 =======
+=======
+    bcrypt-ruby (3.0.1)
+>>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
 >>>>>>> 2ada19c6ee176ff18f937126ebf3522b3cc6024f
@@ -56,6 +68,11 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     ffi (1.9.0)
     hike (1.2.3)
     i18n (0.6.4)
@@ -64,6 +81,9 @@ GEM
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
+    jquery-turbolinks (1.0.0)
+      railties (>= 3.1.0)
+      turbolinks
     json (1.8.0)
     json_pure (1.8.0)
     mail (2.5.4)
@@ -101,6 +121,8 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rspec-core (2.13.1)
     rspec-expectations (2.13.0)
       diff-lcs (>= 1.1.3, < 2.0)
@@ -157,12 +179,19 @@ PLATFORMS
 
 DEPENDENCIES
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d49d53adc809599f79792c719d1e41a8f20032f7
+=======
+  bcrypt-ruby (= 3.0.1)
+  bootstrap-sass
+>>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
   capybara (= 2.1.0)
   coffee-rails (= 4.0.0)
+  factory_girl_rails
   jbuilder (= 1.0.2)
   jquery-rails (= 2.2.1)
+  jquery-turbolinks
   pg (= 0.15.1)
   rails (= 4.0.0)
   rails_12factor
@@ -171,5 +200,6 @@ DEPENDENCIES
   sdoc (= 0.3.20)
   selenium-webdriver (= 2.0.0)
   sqlite3 (= 1.3.7)
+  stripe!
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)

@@ -1,0 +1,21 @@
+<% provide(:title, "Log in") %>
+<div class="row">
+  <div class="span6 offset3" id="log_in_form">
+    <h1>Log in</h1>
+    <%= form_for(:session, url: sessions_path) do |f| %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password%>
+
+      <br/>
+
+      <%= f.submit 'Submit', class: 'btn btn-primary' %>
+    <% end %>
+
+    <p>New to 28 Day Hug?? No Problem!! <%= link_to "Create Account Here", create_path %></p>
+    <br/>
+  </div>
+</div>

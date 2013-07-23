@@ -29,7 +29,11 @@
 
 
     <div class="container-fluid">
-      <div class="row-fluid"><a href="#"class="user-btn pull-right">Log In</a></div>
+      <div class="row-fluid">
+        <%= link_to "Log in", login_path, class: "login btn btn-normal pull-right" %>
+        <%= link_to "Create Account", create_path, class: "login btn btn-normal pull-right" %>
+        <!-- <a href="#"class="user-btn pull-right">Log In</a> -->
+      </div>
 
       <div class='row-fluid'>
         <div class="span12">
