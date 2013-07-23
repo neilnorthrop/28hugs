@@ -10,6 +10,7 @@ class SubscribersController < ApplicationController
   # GET /subscribers/1
   # GET /subscribers/1.json
   def show
+    @subscriber
   end
 
   # GET /subscribers/new
