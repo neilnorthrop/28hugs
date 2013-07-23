@@ -1,10 +1,12 @@
 class Subscriber < ActiveRecord::Base
-<<<<<<< HEAD
-<<<<<<< HEAD
   has_secure_password
-=======
   before_save { self.email = email.downcase }
+
+	has_secure_password
   has_many :charges
+
+  validates :password, length: { minimum: 6 }
+  before_save { self.email = email.downcase }
   before_create :create_remember_token
 
   validates :first_name && :last_name, presence: true, length: { maximum: 50 }
@@ -12,8 +14,6 @@ class Subscriber < ActiveRecord::Base
   validates :email, presence: true,
                     format: { with: VALID_EMAIL_REGEX },
                     uniqueness: { case_sensitive: false }
-  has_secure_password
-  validates :password, length: { minimum: 6 }
 
 
   def Subscriber.new_remember_token
@@ -29,8 +29,6 @@ class Subscriber < ActiveRecord::Base
     def create_remember_token
       self.remember_token = Subscriber.encrypt(Subscriber.new_remember_token)
     end
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
-=======
 	has_secure_password
 	has_many :charges
 
@@ -59,5 +57,4 @@ class Subscriber < ActiveRecord::Base
         render action: 'new'
       end
   end
->>>>>>> a235870547ae8257e08f5f8d579df8984ff37dea
 end
