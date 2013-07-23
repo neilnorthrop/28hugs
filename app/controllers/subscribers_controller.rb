@@ -10,6 +10,7 @@ class SubscribersController < ApplicationController
   # GET /subscribers/1
   # GET /subscribers/1.json
   def show
+    @subscriber
   end
 
   # GET /subscribers/new
@@ -41,7 +42,7 @@ class SubscribersController < ApplicationController
       if @subscriber.save
         redirect_to @subscriber, notice: 'Subscriber was successfully created.'
       else
-        render action: 'new'
+        render 'new'
       end
   end
 
