@@ -19,8 +19,6 @@ describe "subscribers/show" do
       :billing_city => "Billing City",
       :billing_state => "Billing State",
       :billing_zip => "Billing Zip",
-      :password_digest => "Password Digest",
-      :stripe_customer_id => "Stripe Customer",
       :payment_status => "Payment Status",
 >>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
       :recipient_name => "Recipient Name",
@@ -57,8 +55,6 @@ describe "subscribers/show" do
     rendered.should match(/Billing City/)
     rendered.should match(/Billing State/)
     rendered.should match(/Billing Zip/)
-    rendered.should match(/Password Digest/)
-    rendered.should match(/Stripe Customer/)
     rendered.should match(/Payment Status/)
 >>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
     rendered.should match(/Recipient Name/)
