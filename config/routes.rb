@@ -1,11 +1,14 @@
 Hug::Application.routes.draw do
   resources :charges
-
   resources :subscribers
+  resources :sessions, only: [:new, :create, :destroy]
 
   get '/', to: 'static_pages#home'
   get '/home', to: 'static_pages#home'
   get '/faq', to: 'static_pages#faq'
+  match '/create', to: 'subscribers#new',  via: 'get'
+  match '/login', to: 'sessions#new',      via: 'get'
+  match '/logout', to: 'sessions#destroy', via: 'delete'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
