@@ -1,11 +1,8 @@
 Hug::Application.routes.draw do
-<<<<<<< HEAD
   resources :subscribers
-=======
   resources :charges
   resources :subscribers
   resources :sessions, only: [:new, :create, :destroy]
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
 
   get '/', to: 'static_pages#home'
   get '/home', to: 'static_pages#home'

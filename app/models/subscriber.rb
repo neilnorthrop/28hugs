@@ -1,7 +1,5 @@
 class Subscriber < ActiveRecord::Base
-<<<<<<< HEAD
   has_secure_password
-=======
   before_save { self.email = email.downcase }
   has_many :charges
   before_create :create_remember_token
@@ -28,5 +26,4 @@ class Subscriber < ActiveRecord::Base
     def create_remember_token
       self.remember_token = Subscriber.encrypt(Subscriber.new_remember_token)
     end
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
 end

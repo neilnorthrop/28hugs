@@ -11,9 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20130709170447) do
-=======
 ActiveRecord::Schema.define(version: 20130722222827) do
 
   create_table "charges", force: true do |t|
@@ -24,20 +21,11 @@ ActiveRecord::Schema.define(version: 20130722222827) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
 
   create_table "subscribers", force: true do |t|
     t.string   "email"
     t.string   "first_name"
     t.string   "last_name"
-<<<<<<< HEAD
-    t.string   "phone_number"
-    t.string   "billing_address"
-    t.string   "billing_city"
-    t.string   "billing_state"
-    t.integer  "billing_zip"
-    t.string   "processor_token"
-=======
     t.string   "phone"
     t.string   "billing_address"
     t.string   "billing_city"
@@ -47,21 +35,10 @@ ActiveRecord::Schema.define(version: 20130722222827) do
     t.string   "password_digest"
     t.string   "stripe_customer_id"
     t.string   "payment_status"
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
     t.string   "recipient_name"
     t.string   "recipient_address"
     t.string   "recipient_city"
     t.string   "recipient_state"
-<<<<<<< HEAD
-    t.integer  "recipient_zip"
-    t.string   "password"
-    t.string   "password_digest"
-    t.string   "password_confirmation"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-=======
     t.string   "recipient_zip"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -70,5 +47,4 @@ ActiveRecord::Schema.define(version: 20130722222827) do
 
   add_index "subscribers", ["remember_token"], name: "index_subscribers_on_remember_token"
 
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
 end

@@ -1,9 +1,7 @@
 require 'spec_helper'
 
 describe Subscriber do
-<<<<<<< HEAD
   pending "add some examples to (or delete) #{__FILE__}"
-=======
 
   before do
     @subscriber = Subscriber.new(first_name: "Example", last_name: "User", email: "example@example.com",
@@ -23,5 +21,4 @@ describe Subscriber do
     before { @subscriber.save }
     its(:remember_token) { should_not be_blank }
   end
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
 end

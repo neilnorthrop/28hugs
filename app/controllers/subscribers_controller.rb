@@ -10,10 +10,7 @@ class SubscribersController < ApplicationController
   # GET /subscribers/1
   # GET /subscribers/1.json
   def show
-<<<<<<< HEAD
-=======
     @subscriber
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
   end
 
   # GET /subscribers/new
@@ -28,7 +25,6 @@ class SubscribersController < ApplicationController
   # POST /subscribers
   # POST /subscribers.json
   def create
-<<<<<<< HEAD
     @subscriber = Subscriber.new(subscriber_params)
 
     respond_to do |format|
@@ -40,7 +36,6 @@ class SubscribersController < ApplicationController
         format.json { render json: @subscriber.errors, status: :unprocessable_entity }
       end
     end
-=======
 
         # Set your secret key: remember to change this to your live secret key in production
     # See your keys here https://manage.stripe.com/account
@@ -76,7 +71,6 @@ class SubscribersController < ApplicationController
     #     format.json { render json: @subscriber.errors, status: :unprocessable_entity }
     #   end
     # end
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
   end
 
   # PATCH/PUT /subscribers/1
@@ -111,10 +105,7 @@ class SubscribersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def subscriber_params
-<<<<<<< HEAD
       params.require(:subscriber).permit(:email, :first_name, :last_name, :phone_number, :billing_address, :billing_city, :billing_state, :billing_zip, :processor_token, :recipient_name, :recipient_address, :recipient_city, :recipient_state, :recipient_zip, :password, :password_digest, :password_confirmation)
-=======
       params.require(:subscriber).permit(:password, :password_confirmation, :email, :first_name, :last_name, :phone, :billing_address, :billing_city, :billing_state, :billing_zip, :ship_date, :password_digest, :stripe_customer_id, :payment_status, :recipient_name, :recipient_address, :recipient_city, :recipient_state, :recipient_zip)
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
     end
 end

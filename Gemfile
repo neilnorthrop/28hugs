@@ -2,11 +2,8 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.0'
-<<<<<<< HEAD
 gem 'rails_12factor', group: :production
 
-=======
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
@@ -39,7 +36,4 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor'
 end
-<<<<<<< HEAD
   gem 'rails_12factor'
-=======
->>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
