@@ -19,7 +19,6 @@ describe "subscribers/edit" do
       :billing_city => "MyString",
       :billing_state => "MyString",
       :billing_zip => "MyString",
-      :password_digest => "MyString",
       :stripe_customer_id => "MyString",
       :payment_status => "MyString",
 >>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
@@ -56,9 +55,12 @@ describe "subscribers/edit" do
       assert_select "input#subscriber_billing_state[name=?]", "subscriber[billing_state]"
       assert_select "input#subscriber_billing_zip[name=?]", "subscriber[billing_zip]"
 <<<<<<< HEAD
+<<<<<<< HEAD
       assert_select "input#subscriber_processor_token[name=?]", "subscriber[processor_token]"
 =======
       assert_select "input#subscriber_password_digest[name=?]", "subscriber[password_digest]"
+=======
+>>>>>>> a235870547ae8257e08f5f8d579df8984ff37dea
       assert_select "input#subscriber_stripe_customer_id[name=?]", "subscriber[stripe_customer_id]"
       assert_select "input#subscriber_payment_status[name=?]", "subscriber[payment_status]"
 >>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474

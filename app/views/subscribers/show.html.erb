@@ -136,3 +136,14 @@
 >>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
 <%= link_to 'Edit', edit_subscriber_path(@subscriber) %> |
 <%= link_to 'Back', subscribers_path %>
+
+<h4>Recent Transactions:</h4>
+<%= @subscriber.charges.each do  |charge| %>
+  <div class="well">
+    <p><h4>Charge</h4></p>
+    Credit Card Last 4: <%= charge.last_4 %> ----
+    Payment Status: <%= charge.paid_status %> ----
+    Payment Created: <%= charge.created_at %>
+  </div>
+<% end %>
+

@@ -42,10 +42,6 @@ class SubscribersController < ApplicationController
     end
 =======
 
-        # Set your secret key: remember to change this to your live secret key in production
-    # See your keys here https://manage.stripe.com/account
-    Stripe.api_key = "sk_k4XKAXwn5PpyQmLM3ChOKR4ncHfCh"
-
     # Get the credit card details submitted by the form
     token = params[:stripeToken]
 
@@ -53,18 +49,18 @@ class SubscribersController < ApplicationController
     # Create a Customer
     customer = Stripe::Customer.create(
       :card => token,
-      :description => "payinguser@example.com"
+      :description => params[:subscriber][:email]
     )
     #set params to include the returned customer id from stripe
     params[:subscriber][:stripe_customer_id] = customer.id
 
     @subscriber = Subscriber.new(subscriber_params)
-    # @subscriber = subscriber
       if @subscriber.save
         redirect_to @subscriber, notice: 'Subscriber was successfully created.'
       else
         render 'new'
       end
+<<<<<<< HEAD
     # @subscriber = Subscriber.new(subscriber_params)
 
     # respond_to do |format|
@@ -77,6 +73,8 @@ class SubscribersController < ApplicationController
     #   end
     # end
 >>>>>>> d01baa6085970c459966cde4b46c161b4f8b6474
+=======
+>>>>>>> a235870547ae8257e08f5f8d579df8984ff37dea
   end
 
   # PATCH/PUT /subscribers/1
